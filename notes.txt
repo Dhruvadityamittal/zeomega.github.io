@@ -1,7 +1,5 @@
 Pull the the Jekyll docker image:
-
-  sudo docker pull grahamc/jekyll
-
+ sudo docker pull grahamc/jekyll
+ 
 Run Jekyll:
-
-  sudo docker run --rm -v "$(pwd):/src" -p 4000:4000 grahamc/jekyll serve -D
+ sudo docker run --rm -v "$(pwd):/src" -p 4000:4000 grahamc/jekyll serve -D
